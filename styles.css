@@ -1,13 +1,41 @@
-/* General Reset */
-body {
+body,
+html {
     margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+}
+
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+}
+
+.column-left {
+    background-color: #f4f4f4;
+}
+
+.column-right {
+    background-color: #e4e4e4;
 }
 
 /* Logo Styling */
@@ -18,16 +46,11 @@ body {
 }
 
 .logo img {
-    width: 80px; /* Adjust as needed */
+    width: 64px; /* Adjust as needed */
     height: auto;
 }
 
-/* Center Content */
-.container {
-    text-align: center;
-}
-
-.container h1 {
+.container header h1 {
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -44,7 +67,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #007bff;
     font-size: 1.2rem;
     transition: color 0.3s ease;
 }
