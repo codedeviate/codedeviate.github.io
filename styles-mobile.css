@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+}
+
+/* Logo Styling */
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logo img {
+    width: 64px;
+    height: auto;
+    filter: invert(100%) brightness(100%) saturate(100%);
+}
