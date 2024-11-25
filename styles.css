@@ -46,9 +46,9 @@ html {
 }
 
 .logo img {
-    width: 64px; /* Adjust as needed */
+    width: 64px;
     height: auto;
-    filter: invert(100%) brightness(0) saturate(100%);
+    filter: invert(100%) brightness(100%) saturate(100%);
 }
 
 .container header h1 {
