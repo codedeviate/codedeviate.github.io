@@ -32,5 +32,4 @@
 .logo img {
     width: 64px;
     height: auto;
-    filter: invert(100%) brightness(100%) saturate(100%);
 }
