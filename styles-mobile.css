@@ -12,6 +12,12 @@
     padding: 1rem;
 }
 
+.header {
+    text-align: left;
+    padding: 1rem;
+    padding-right: 100px;
+}
+
 .main {
     display: flex;
     flex: 1;
