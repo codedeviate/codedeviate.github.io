@@ -28,6 +28,10 @@
     padding: 1rem;
 }
 
+.content {
+    padding: 1rem;
+}
+
 /* Logo Styling */
 .logo {
     position: absolute;

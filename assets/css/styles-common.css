@@ -14,6 +14,10 @@ html {
     background-color: #e4e4e4;
 }
 
+.content {
+    background-color: #e4e4e4;
+}
+
 .container header h1 {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -39,6 +43,8 @@ nav ul li a {
 nav ul li a:hover {
     color: #0056b3;
 }
+
+
 
 /* Dropdown Button */
 .dropbtn {
