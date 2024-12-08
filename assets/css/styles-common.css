@@ -3,7 +3,10 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: Arial, sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4; /* Light gray background for the body */
+    color: #333333; /* Dark gray text for better readability */
 }
 
 .column-left {
@@ -15,13 +18,42 @@ html {
 }
 
 .content {
-    background-color: #e4e4e4;
+    background-color: #ffffff;
     width: 100%;
+}
+
+.content a:hover,
+.content .btn:hover {
+    color: #2ecc71;
 }
 
 .container header h1 {
     font-size: 2rem;
     margin-bottom: 20px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 20px;
+}
+footer button:hover {
+    background-color: #2980b9;
 }
 
 /* Navigation Links */
