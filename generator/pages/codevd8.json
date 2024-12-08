@@ -1,0 +1,8 @@
+{
+  "title": "Codepage DV8",
+  "template": "one-column",
+  "output": "codedv8.html",
+  "content": {
+    "LEFT_COLUMN": "codedv8.html"
+  }
+}
