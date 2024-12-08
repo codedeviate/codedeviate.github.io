@@ -22,6 +22,12 @@ html {
     width: 100%;
 }
 
+.content a,
+.content a:visited {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 .content a:hover,
 .content .btn:hover {
     color: #2ecc71;
@@ -42,7 +48,21 @@ footer {
     width: 100%;
 }
 
-footer button {
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+footer .button {
     background-color: #3498db;
     color: #ffffff;
     border: none;
@@ -51,8 +71,9 @@ footer button {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 0 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
-footer button:hover {
+footer .button:hover {
     background-color: #2980b9;
 }
 
