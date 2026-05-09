@@ -33,4 +33,4 @@
 
   const y = document.querySelector('[data-year]');
   if (y) y.textContent = new Date().getFullYear();
-})();
+})().catch(err => console.error('include: unhandled', err));
