@@ -14,7 +14,12 @@
   font-weight: 700;
   color: var(--ink);
   border-bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
 }
+.site-header .logo-mark { display: block; }
+.site-header .logo:hover .logo-text { color: var(--accent); }
 .site-header nav ul {
   display: flex;
   gap: 1.5rem;
