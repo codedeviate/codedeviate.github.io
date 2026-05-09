@@ -1,0 +1,13 @@
+[
+  {
+    "id": "ecom-backend-now",
+    "start": "2022",
+    "end": null,
+    "displayDate": "Now",
+    "role": "Backend Developer",
+    "company": "Ecommerce platform",
+    "blurb": "Working on the backend of an ecommerce system — order flows, integrations, and the unglamorous correctness work that keeps a shop running.",
+    "tags": ["PHP", "MySQL", "Go"],
+    "era": "developer"
+  }
+]
