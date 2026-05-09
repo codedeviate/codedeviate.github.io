@@ -1,8 +1,0 @@
-{
-  "title": "Codepage DV8",
-  "template": "one-column",
-  "output": "courses.html",
-  "content": {
-    "LEFT_COLUMN": "courses.html"
-  }
-}
