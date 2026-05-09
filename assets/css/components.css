@@ -116,7 +116,7 @@
   align-items: baseline;
   gap: 1rem;
 }
-.page-links a:first-child { border-top: 1px solid var(--rule); }
+.page-links li:first-child a { border-top: 1px solid var(--rule); }
 .page-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .page-links .muted {
   font-family: var(--font-sans);
@@ -181,7 +181,7 @@
 }
 .repo-card {
   border: 1px solid var(--rule);
-  background: #fff;
+  background: var(--surface);
   padding: 1.25rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -216,7 +216,7 @@
 .repo-card .tag {
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  background: #f4f3ee;
+  background: var(--chip-bg);
   border: 1px solid var(--rule);
   color: var(--muted);
   padding: 0.15rem 0.5rem;
