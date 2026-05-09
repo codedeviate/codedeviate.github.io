@@ -1,0 +1,23 @@
+:root {
+  --bg: #fafaf7;
+  --ink: #1a1a1a;
+  --ink-soft: #444;
+  --muted: #888;
+  --rule: #ddd;
+  --accent: #8a1a1a;
+  --accent-soft: #c97070;
+
+  --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'JetBrains Mono', Menlo, Consolas, monospace;
+
+  --space: 1.5rem;
+  --content-w: 64ch;
+  --grid-w: 1100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+img, svg { display: block; max-width: 100%; }
+button { font: inherit; }
