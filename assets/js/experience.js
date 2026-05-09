@@ -36,4 +36,4 @@
       '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
     })[c]);
   }
-})();
+})().catch(err => console.error('experience: unhandled', err));

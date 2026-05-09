@@ -19,7 +19,7 @@ Then open http://localhost:8000.
 
 - **Hero quote, "Currently" line, About copy, Contact links** — inline in the relevant `*.html` file.
 - **Working experience** — edit `docs/experience-source.md`, then run `node tools/md-to-experience.mjs` to regenerate `data/experience.json`. You can also hand-edit the JSON.
-- **Repositories** — edit `data/repos.json` directly. See `CLAUDE.md` for the field shape.
+- **Repositories** — edit `data/repos.json` directly. Each entry has `id`, `name`, `tagline`, `language` (e.g. `Rust`), `kind` (e.g. `CLI`, `Server`), `url`, plus optional `description`, `tags` (array), `featured` (bool, sorts to top), `archived` (bool, dimmed and sorted last). The `language` and `kind` values drive the filter chips automatically.
 
 ## Deploy
 
