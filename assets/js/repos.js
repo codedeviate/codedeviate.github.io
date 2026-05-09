@@ -86,9 +86,10 @@
     const tags = (r.tags || []).map(t => `<span class="tag">${escape(t)}</span>`).join('');
     const meta = [r.language, r.kind, r.featured ? 'Featured' : null, r.archived ? 'Archived' : null]
       .filter(Boolean).map(escape).join(' · ');
+    const safeUrl = /^https?:\/\//i.test(r.url) ? escape(r.url) : '#';
     return `
       <article class="repo-card${r.archived ? ' archived' : ''}" id="${escape(r.id)}">
-        <h2 class="name"><a href="${escape(r.url)}" rel="noopener">${escape(r.name)}</a></h2>
+        <h2 class="name"><a href="${safeUrl}" rel="noopener">${escape(r.name)}</a></h2>
         <p class="meta">${meta}</p>
         <p class="tagline">${escape(r.tagline)}</p>
         ${tags ? `<div class="tags">${tags}</div>` : ''}
@@ -101,7 +102,13 @@
   }
 
   function unique(arr) {
-    return [...new Set(arr.filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    const seen = new Map();
+    for (const v of arr) {
+      if (!v) continue;
+      const key = String(v).toLowerCase();
+      if (!seen.has(key)) seen.set(key, v);
+    }
+    return [...seen.values()].sort((a, b) => a.localeCompare(b));
   }
 
   function escape(s) {
