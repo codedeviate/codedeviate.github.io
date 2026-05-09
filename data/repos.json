@@ -1,0 +1,62 @@
+[
+  {
+    "id": "recon",
+    "name": "recon",
+    "tagline": "Network reconnaissance toolkit — HTTP, TLS, DNS, and a full Rhai script engine.",
+    "description": "Started as a curl clone and grew into a multi-protocol investigation tool. Covers HTTP(S), TLS certificate inspection, DNS, WHOIS, ping, traceroute, archive handling, and Markdown/HTML/PDF conversion. The Rhai script engine exposes every probe and helper for automation.",
+    "language": "Rust",
+    "kind": "CLI",
+    "tags": ["network", "http", "dns", "scripting"],
+    "url": "https://github.com/codedeviate/recon",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "sqlt",
+    "name": "sqlt",
+    "tagline": "Multi-dialect SQL parser and translator for MySQL, MariaDB, Postgres, MSSQL, and SQLite.",
+    "description": "Parses SQL into a JSON AST, emits SQL back from JSON, and translates between dialects. Early development; see CHANGELOG.md and OUT-OF-SCOPE.md in the repo.",
+    "language": "Rust",
+    "kind": "CLI",
+    "tags": ["sql", "parser", "translator"],
+    "url": "https://github.com/codedeviate/sqlt",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "tess",
+    "name": "tess",
+    "tagline": "A less-style terminal pager with structured-log filtering and pretty-printing.",
+    "description": "A pager for files, pipes, and live logs with first-class structured-log filtering, pretty-printing of JSON/YAML/TOML/XML/HTML/CSV, and wrap-aware scrolling. macOS + Linux.",
+    "language": "Rust",
+    "kind": "CLI",
+    "tags": ["pager", "log", "tail", "terminal"],
+    "url": "https://github.com/codedeviate/tess",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "batty",
+    "name": "batty",
+    "tagline": "A cat / bat clone with syntax highlighting, git diff markers, and a bundled Rhai grammar.",
+    "description": "Includes an interactive TUI mode, vim-style relative line numbers, Markdown rendering, tail/follow mode, and a TOML config. Targets macOS and Linux.",
+    "language": "Rust",
+    "kind": "CLI",
+    "tags": ["cat", "bat", "syntax-highlighting"],
+    "url": "https://github.com/codedeviate/batty",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "webrunner",
+    "name": "webrunner",
+    "tagline": "Zero-config development web server with CGI and .htaccess support.",
+    "description": "Static files, directory listings, classic CGI scripts (Perl/PHP/TypeScript via bun), URL rewriting, basic auth, custom error pages, and self-signed HTTPS — driven by familiar Apache-style .htaccess files.",
+    "language": "Rust",
+    "kind": "Server",
+    "tags": ["web-server", "cgi", "htaccess"],
+    "url": "https://github.com/codedeviate/webrunner",
+    "featured": true,
+    "archived": false
+  }
+]
