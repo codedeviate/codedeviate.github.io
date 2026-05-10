@@ -88,6 +88,17 @@
     "era": "developer"
   },
   {
+    "id": "university",
+    "start": "1998",
+    "end": "2001",
+    "displayDate": "1998-2001",
+    "role": "Student — Computer Science & Electronics",
+    "company": "Linköping & Malmö University",
+    "blurb": "Three years of computer-and-electronics studies — first year at Linköping, then transferred south for the remaining two at Malmö. Plenty of paid work on the side, which counts more in the rest of this list.",
+    "tags": [],
+    "era": "education"
+  },
+  {
     "id": "network-support",
     "start": "1997",
     "end": "1998",
