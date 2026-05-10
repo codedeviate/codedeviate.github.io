@@ -58,5 +58,77 @@
     "url": "https://github.com/codedeviate/webrunner",
     "featured": true,
     "archived": false
+  },
+  {
+    "id": "nrg",
+    "name": "nrg",
+    "tagline": "A REPL-style wrapper for `npm run` and `git`, with passthru for most of the everyday shell tools.",
+    "description": "Short for NPM Run + Git — the two CLIs I use most. nrg wraps both, exposes a small REPL for project-scoped sessions, and passes through familiar shell utilities (cat, cp, curl, awk, etc.) so you rarely have to leave it.",
+    "language": "Go",
+    "kind": "CLI",
+    "tags": ["npm", "git", "repl", "productivity"],
+    "url": "https://github.com/codedeviate/nrg",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "nrun",
+    "name": "nrun",
+    "tagline": "`npm run` with a few quality-of-life improvements.",
+    "description": "A small Go wrapper around `npm run` — fewer keystrokes, nicer output, and a handful of features that turn the daily script-runner into something pleasant.",
+    "language": "Go",
+    "kind": "CLI",
+    "tags": ["npm", "node", "scripts"],
+    "url": "https://github.com/codedeviate/nrun",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "dynamicconfig",
+    "name": "dynamicconfig",
+    "tagline": "Layered configuration for Node — files and environment, with fallbacks, defaults, and optional throw-on-missing.",
+    "description": "Dynamic configuration storage that reads from files and/or environment, supports multiple named config sets, falls back to a default config file when present, and lets each lookup either return a default or throw on missing keys. TypeScript declarations included; published as @codedv8/dynamicconfig on npm.",
+    "language": "JavaScript",
+    "kind": "Library",
+    "tags": ["config", "node", "npm-package"],
+    "url": "https://github.com/codedeviate/dynamicconfig",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "inmemcache",
+    "name": "inmemcache",
+    "tagline": "A small in-memory local cache, written in TypeScript.",
+    "description": "Memory-based local cache. Small, focused, no dependencies. Written in TypeScript.",
+    "language": "TypeScript",
+    "kind": "Library",
+    "tags": ["cache", "memory", "node"],
+    "url": "https://github.com/codedeviate/inmemcache",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "ts-totype",
+    "name": "ts-totype",
+    "tagline": "A self-confessed bad-practice helper for casting to `any` or `unknown` when the linter says no.",
+    "description": "A workaround for the times you really do need to cast to `any`, `unknown`, or another type the linting rules forbid. Honest about being a bad practice; useful when nothing else fits.",
+    "language": "JavaScript",
+    "kind": "Library",
+    "tags": ["typescript", "casting", "lint-escape-hatch"],
+    "url": "https://github.com/codedeviate/ts-totype",
+    "featured": false,
+    "archived": false
+  },
+  {
+    "id": "configish",
+    "name": "configish",
+    "tagline": "Configurable, dynamic config objects — small and focused.",
+    "description": "A config object that is configurable and dynamic.",
+    "language": "JavaScript",
+    "kind": "Library",
+    "tags": ["config", "node"],
+    "url": "https://github.com/codedeviate/configish",
+    "featured": false,
+    "archived": false
   }
 ]
