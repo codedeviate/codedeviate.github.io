@@ -1,17 +1,178 @@
 [
   {
     "id": "ecom-backend-now",
-    "start": "2022",
+    "start": "2024",
     "end": null,
     "displayDate": "Now",
     "role": "Backend Developer",
-    "company": "Ecommerce platform",
-    "blurb": "Working on the backend of an ecommerce system — order flows, integrations, and the unglamorous correctness work that keeps a shop running.",
-    "tags": [
-      "PHP",
-      "MySQL",
-      "Go"
-    ],
+    "company": "Thea Commerce",
+    "blurb": "Working on the backend of an ecommerce system — order flows, integrations, and the unglamorous correctness work that keeps shops running.",
+    "tags": ["PHP", "MySQL", "Perl", "MariaDB"],
     "era": "developer"
+  },
+  {
+    "id": "fintech-backend",
+    "start": "2022",
+    "end": "2024",
+    "displayDate": "2022-2024",
+    "role": "Backend Developer",
+    "company": "Qvickly",
+    "blurb": "Backend work on Qvickly's payment products — the corner of fintech where reconciliation is its own discipline and the numbers have to be right.",
+    "tags": ["PHP", "MySQL", "TypeScript"],
+    "era": "developer"
+  },
+  {
+    "id": "ecom-backend",
+    "start": "2014",
+    "end": "2022",
+    "displayDate": "2014-2022",
+    "role": "Backend Developer",
+    "company": "eValent Group",
+    "blurb": "Eight years building and maintaining Nordisk E-handel, eValent Group's ecommerce platform. Long enough to learn every corner of the stack — and where the bodies were buried.",
+    "tags": ["Perl", "MariaDB"],
+    "era": "developer"
+  },
+  {
+    "id": "cms",
+    "start": "2013",
+    "end": "2014",
+    "displayDate": "2013-2014",
+    "role": "Developer",
+    "company": "Helikopter Webbdesign",
+    "blurb": "Generalist web work — small-business sites, custom CMS features, and whatever else the studio needed that week. The kind of role where the day's task list was whatever walked through the door.",
+    "tags": ["PHP", "MySQL"],
+    "era": "developer"
+  },
+  {
+    "id": "photographer-cms",
+    "start": "2013",
+    "end": "2014",
+    "displayDate": "2013-2014",
+    "role": "Photographer / Developer",
+    "company": "BildStudio8",
+    "blurb": "Behind the camera at Bildstudio 8 — and across the chain that follows the shutter, from print to frame.",
+    "tags": ["PHP", "MySQL"],
+    "era": "photographer"
+  },
+  {
+    "id": "co-founder",
+    "start": "2001",
+    "end": "2013",
+    "displayDate": "2001-2013",
+    "role": "Developer",
+    "company": "UniNet",
+    "blurb": "Twelve years leading development of UniNet's CMS — roadmap, releases, and keeping the core in shape as the product grew around it.",
+    "tags": ["PHP", "MySQL"],
+    "era": "developer"
+  },
+  {
+    "id": "self-employed",
+    "start": "2001",
+    "end": "2013",
+    "displayDate": "2001-2013",
+    "role": "Owner",
+    "company": "UniDev",
+    "blurb": "My one-person shop, kept open for small pilot projects and the experiments that didn't fit anywhere else.",
+    "tags": ["PHP", "MySQL"],
+    "era": "developer"
+  },
+  {
+    "id": "educator-developer",
+    "start": "1999",
+    "end": "2001",
+    "displayDate": "1999-2001",
+    "role": "Educator/Developer",
+    "company": "StudentKraft",
+    "blurb": "Part-time educator and developer through StudentKraft, placed as a consultant at third-party companies. The memorable stretch: lead instructor on Lexicon's XML courses, back when XML was new enough to need teaching.",
+    "tags": ["XML", "ASP", "HTML", "CSS"],
+    "era": "developer"
+  },
+  {
+    "id": "network-support",
+    "start": "1997",
+    "end": "1998",
+    "displayDate": "1997-1998",
+    "role": "Support/Sales",
+    "company": "NetPlus",
+    "blurb": "A small company where everyone wore every hat — technical support, phone sales, logistics, and deliveries, all on the network-equipment side.",
+    "tags": ["Network"],
+    "era": "support"
+  },
+  {
+    "id": "ibs-sales",
+    "start": "1996",
+    "end": "1997",
+    "displayDate": "1996-1997",
+    "role": "Sales",
+    "company": "IBS Sverige",
+    "blurb": "Selling PCs and PC software to resellers across southern Sweden — roughly Halmstad and Växjö, and everything below.",
+    "tags": ["IBM", "ACER"],
+    "era": "sales"
+  },
+  {
+    "id": "ibm-sales",
+    "start": "1996",
+    "end": "1996",
+    "displayDate": "1996",
+    "role": "Sales",
+    "company": "PEDAB",
+    "blurb": "Reseller sales for southern Sweden, doubling as the technical lead on IBM's networking and software lines.",
+    "tags": ["IBM"],
+    "era": "sales"
+  },
+  {
+    "id": "upgrade-support",
+    "start": "1994",
+    "end": "1996",
+    "displayDate": "1994-1996",
+    "role": "Support/Sales",
+    "company": "UpGrade Communication",
+    "blurb": "Technical support on networking gear, plus product-management duties for IBM Software, AXIS print servers, and Citrix remote access — the early-internet office stack.",
+    "tags": ["D-Link", "IBM"],
+    "era": "support"
+  },
+  {
+    "id": "gandalf-support",
+    "start": "1991",
+    "end": "1994",
+    "displayDate": "1991-1994",
+    "role": "Support/Sales/Warehouse",
+    "company": "Gandalf Data",
+    "blurb": "Front-line phone support and sales to computer resellers across Sweden — and time in the warehouse when the boxes needed shifting.",
+    "tags": ["Quantum", "Intel"],
+    "era": "sales"
+  },
+  {
+    "id": "store-sales",
+    "start": "1990",
+    "end": "1991",
+    "displayDate": "1990-1991",
+    "role": "Sales",
+    "company": "Datalättbutikerna",
+    "blurb": "Behind the counter selling home computers, with the Atari range as my product-management beat. Equal parts retail and enthusiasm.",
+    "tags": ["Atari", "Commodore"],
+    "era": "sales"
+  },
+  {
+    "id": "army",
+    "start": "1989",
+    "end": "1990",
+    "displayDate": "1989-1990",
+    "role": "Officer",
+    "company": "Swedish Army",
+    "blurb": "Second Lieutenant (Fänrik). Training conscripts in the field — mostly on the not-very-forgiving subject of directing artillery fire.",
+    "tags": [],
+    "era": "military"
+  },
+  {
+    "id": "military-service",
+    "start": "1988",
+    "end": "1989",
+    "displayDate": "1988-1989",
+    "role": "Military service",
+    "company": "Swedish Army",
+    "blurb": "Mandatory military service — the year before the officer commission.",
+    "tags": [],
+    "era": "military"
   }
 ]
