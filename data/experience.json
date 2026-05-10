@@ -185,5 +185,27 @@
     "blurb": "Mandatory military service — the year before the officer commission.",
     "tags": [],
     "era": "military"
+  },
+  {
+    "id": "school",
+    "start": "1983",
+    "end": "1988",
+    "displayDate": "1983-1988",
+    "role": "High school",
+    "company": "Fässbergs Gymnasium / Chalmers Tekniska Gymnasium",
+    "blurb": "Four-year technical upper-secondary track focused on electricity and telecommunications — a year longer than the standard three.",
+    "tags": [],
+    "era": "education"
+  },
+  {
+    "id": "computer-course",
+    "start": "1982",
+    "end": "1982",
+    "displayDate": "1982",
+    "role": "Computer course",
+    "company": "Kvarnbyskolan",
+    "blurb": "A term of computers and programming in middle school. The first entry on this list, in every sense.",
+    "tags": [],
+    "era": "education"
   }
 ]
