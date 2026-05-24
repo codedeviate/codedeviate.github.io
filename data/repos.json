@@ -8,7 +8,7 @@
     "kind": "CLI",
     "tags": ["network", "http", "dns", "scripting"],
     "url": "https://github.com/codedeviate/recon",
-    "featured": false,
+    "featured": true,
     "archived": false
   },
   {
@@ -32,7 +32,7 @@
     "kind": "CLI",
     "tags": ["pager", "log", "tail", "terminal"],
     "url": "https://github.com/codedeviate/tess",
-    "featured": false,
+    "featured": true,
     "archived": false
   },
   {
