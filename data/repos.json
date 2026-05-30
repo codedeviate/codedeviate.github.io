@@ -134,11 +134,11 @@
   {
     "id": "sercon",
     "name": "sercon",
-    "tagline": "Embeddable TypeScript script engine in Go — pure Go, no cgo, no Node.",
-    "description": "An embeddable scripting engine that runs TypeScript inside a Go program with no cgo and no Node runtime. The pkg/scriptengine library lets you register Go-callable bindings (sync or Promise-returning) and run .ts files; the bundled sercon CLI runs scripts directly. Built on goja for execution, esbuild for in-process TypeScript transpilation, and goja_nodejs for Promises, setTimeout, and require.",
+    "tagline": "CLI that runs TypeScript on a pure-Go engine — no cgo, no Node.",
+    "description": "A command-line tool that runs TypeScript and JavaScript directly, with no cgo and no Node runtime. Built on goja for execution, esbuild for in-process TypeScript transpilation, and goja_nodejs for Promises, setTimeout, and require. The same engine is also exposed as an embeddable pkg/scriptengine library for registering Go-callable bindings, but the CLI is the primary way to use it.",
     "language": "Go",
     "kind": "CLI",
-    "tags": ["typescript", "scripting", "embeddable", "go"],
+    "tags": ["typescript", "scripting", "cli", "go"],
     "url": "https://github.com/codedeviate/sercon",
     "featured": false,
     "archived": false
