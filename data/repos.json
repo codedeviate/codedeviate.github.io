@@ -142,5 +142,17 @@
     "url": "https://github.com/codedeviate/sercon",
     "featured": false,
     "archived": false
+  },
+  {
+    "id": "checkoutfiller",
+    "name": "CheckoutFiller",
+    "tagline": "Browser extension that auto-fills payment-form test credentials via a right-click menu.",
+    "description": "A Manifest V3 extension for Chrome, Arc, Firefox, and Zen that streamlines checkout testing. Right-click inside a form and pick CheckoutFiller → Provider → Category to populate sandbox credentials for Swedish payment providers — Klarna/Kustom, Svea Checkout, Qliro, Nets/Nexi, and SwedbankPay. Heuristic field matching, proper event dispatch for framework-controlled inputs, configurable credentials, optional auto-refill, and scenario variants. It never submits.",
+    "language": "JavaScript",
+    "kind": "Extension",
+    "tags": ["browser-extension", "payments", "checkout", "testing"],
+    "url": "https://github.com/codedeviate/CheckoutFiller",
+    "featured": false,
+    "archived": false
   }
 ]
