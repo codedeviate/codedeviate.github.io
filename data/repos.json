@@ -48,6 +48,18 @@
     "archived": false
   },
   {
+    "id": "witch",
+    "name": "witch",
+    "tagline": "A typo-tolerant `which` — fuzzy-matches command names against PATH and prints which-style paths.",
+    "description": "Forgiving variant of `which` that tolerates typos and bad spelling: it fuzzy-matches what you typed against the executables on your PATH and prints the resolved which-style paths. Rust, macOS + Linux.",
+    "language": "Rust",
+    "kind": "CLI",
+    "tags": ["which", "fuzzy-matching", "path", "terminal"],
+    "url": "https://github.com/codedeviate/witch",
+    "featured": false,
+    "archived": false
+  },
+  {
     "id": "webrunner",
     "name": "webrunner",
     "tagline": "Zero-config development web server with CGI and .htaccess support.",
